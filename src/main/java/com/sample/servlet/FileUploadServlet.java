@@ -24,6 +24,7 @@ import com.sample.service.ImageServiceImpl;
  */
 public class FileUploadServlet extends HttpServlet {
   
+    @SuppressWarnings({"unchecked", "deprecation"})
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

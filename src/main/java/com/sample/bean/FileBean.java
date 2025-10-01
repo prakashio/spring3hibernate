@@ -2,7 +2,7 @@ package com.sample.bean;
 
 public class FileBean {
 	private Integer id;
-	private String Name;
+private String name;
 	
 	public Integer getId() {
 		return id;
@@ -10,10 +10,10 @@ public class FileBean {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getName() {
-		return Name;
+public String getName() {
+		return name;
 	}
-	public void setName(String name) {
-		this.Name = name;
+public void setName(String name) {
+		this.name = name;
 	}
 	}
