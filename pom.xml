@@ -56,9 +56,9 @@
         <version>2.5.1</version>
       </plugin>
             <plugin>
-              <groupId>org.owasp</groupId>
+<groupId>org.owasp</groupId>
               <artifactId>dependency-check-maven</artifactId>
-              <version>6.0.3</version>
+              <version>12.1.0</version>
               <executions>
                   <execution>
                       <goals>
@@ -106,8 +106,9 @@
 				<version>0.8.7</version>
 				<executions>
 					<execution>
-						<goals>
+<goals>
 							<goal>prepare-agent</goal>
+							<goal>report</goal>
 						</goals>
 					</execution>
 					<execution>
