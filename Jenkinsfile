@@ -2,7 +2,9 @@ pipeline {
   agent any
   stages {
     stage('Cloning Repository') {
-      git 'https://github.com/prakashio/spring3hibernate.git'
+      steps {
+        git 'https://github.com/prakashio/spring3hibernate.git'
+      }
     }
     stage('Code Stability') {
       steps {
